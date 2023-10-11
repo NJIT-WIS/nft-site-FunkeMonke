@@ -42,6 +42,14 @@ nav .logo{
     margin: 0;
 }
 
+.nav-items li a {
+    color: #FFF;
+    font-family: Outfit;
+    font-size: 20px;
+    font-style: normal;
+    text-decoration: none;  
+}
+
 .purple-gradient {
     position: absolute;
     top: 0;

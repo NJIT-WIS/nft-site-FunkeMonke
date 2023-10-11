@@ -54,7 +54,7 @@ nav .logo{
 
 /* Header*/
 .header-container{
-    url("images/computer.png"); 
+    background: #030D44 url("images/computer.png"); 
     background-repeat: no-repeat;
     background-position: right;
     background-size: contain;

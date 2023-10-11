@@ -15,6 +15,11 @@ body {
     max-width: 1065px;
     margin: 0 auto;
 }
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
 .purple-gradient {
     position: absolute;

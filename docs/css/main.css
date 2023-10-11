@@ -1,6 +1,83 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: Outfit;
+}
+
+.nav-container {
+}
+
+.wrapper {
+  width: 1065px;
+  margin: 0 auto;
+  background: #030d44;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 72px;
+}
+
+nav ul {
+  display: flex;
+}
+nav .logo {
+  font-family: Outfit;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  color: #fff;
+}
+.nav-items li {
+  list-style: none;
+  margin-right: 100px;
+}
+
+.nav-items li:nth-last-of-type(1) {
+  margin: 0;
+}
+
+.nav-items li a {
+  color: #fff;
+  font-family: Outfit;
+  font-size: 20px;
+  font-style: normal;
+  text-decoration: none;
+}
+
+/* Header*/
+.header-container {
+  background: #030d44 url("images/computer.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+  height: calc(100vh-72px);
+  display: flex;
+  align-items: center;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header h1 {
+  color: #fff;
+  /* H1 */
+  font-family: Outfit;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%; /* 80px */
+  text-transform: capitalize;
+}
+
 .purple-gradient {
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
 }

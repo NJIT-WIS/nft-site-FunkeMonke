@@ -68,6 +68,16 @@ header{
     align-items: center;
     justify-content: space-between;
 }
+header h1{
+    color: #FFF;
+/* H1 */
+font-family: Outfit;
+font-size: 80px;
+font-style: normal;
+font-weight: 700;
+line-height: 100%; /* 80px */
+text-transform: capitalize; 
+}
 
 .purple-gradient {
     position: absolute;

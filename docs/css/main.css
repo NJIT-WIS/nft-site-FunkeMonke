@@ -32,6 +32,12 @@ nav .logo{
     font-weight: 700;
     color: #FFF;  
 }
+.nav-items li{
+    list-style: none;
+    margin-right: 100px;
+
+}
+
 
 .purple-gradient {
     position: absolute;

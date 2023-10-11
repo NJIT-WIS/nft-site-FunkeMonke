@@ -62,6 +62,12 @@ nav .logo{
     align-items: center;
 }
 
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .purple-gradient {
     position: absolute;
     top: 0;

@@ -21,6 +21,9 @@ nav{
     justify-content: space-between;
 }
 
+nav ul{
+    display: flex;
+}
 .purple-gradient {
     position: absolute;
     top: 0;

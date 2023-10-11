@@ -25,6 +25,14 @@ nav{
 nav ul{
     display: flex;
 }
+nav .logo{
+    font-family: Outfit;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    color: #FFF;  
+}
+
 .purple-gradient {
     position: absolute;
     top: 0;

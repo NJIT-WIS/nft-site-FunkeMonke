@@ -50,6 +50,12 @@ nav .logo{
     text-decoration: none;  
 }
 
+
+/* Header*/
+.header{
+    background: #030D44; 
+}
+
 .purple-gradient {
     position: absolute;
     top: 0;

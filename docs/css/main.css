@@ -38,6 +38,9 @@ nav .logo{
 
 }
 
+.nav-items li:nth-last-of-type(1){
+    margin: 0;
+}
 
 .purple-gradient {
     position: absolute;

@@ -8,14 +8,16 @@ body {
 }
 
 .nav-container{
-    
+
 }
 
-
+.wrapper{
+    max-width: 1065px;
+    margin: 0 auto;
+}
 
 .purple-gradient {
     position: absolute;
     top: 0;
     left: 0;
-    z-index: -1;
 }

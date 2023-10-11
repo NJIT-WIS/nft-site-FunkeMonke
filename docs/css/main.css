@@ -52,8 +52,14 @@ nav .logo{
 
 
 /* Header*/
-.header{
-    background: #030D44; 
+.header-container{
+    background: #030D44 url("images/computer.png"); 
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    height: calc(100vh-72px);
+    display: flex;
+    align-items: center;
 }
 
 .purple-gradient {

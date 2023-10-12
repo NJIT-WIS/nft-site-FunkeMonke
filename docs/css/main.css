@@ -161,14 +161,19 @@ max-width: 522px
   text-align: center;
 }
 
-.testimonials-header {
-  margin-bottom: 20px;
+.testimonial-card {
+  width: 345px;
+  height: 354px;
+  flex-shrink: 0;
+  background: #344292; /* Background color */
+  border-radius: 20px; /* Rounded corners */
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 10px;
 }
 
 .testimonials-text {
-  background-color: #f5f5f5; /* Example background color */
-  padding: 10px;
-  border-radius: 5px;
+  margin-bottom: 20px;
 }
 
 .testimonial-cards {

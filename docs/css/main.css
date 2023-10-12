@@ -7,11 +7,8 @@ body {
   font-family: "Outfit";
 }
 
-.top-bar{
-    background: #030d44;
-}
 .menu {
-
+  background: #030d44;
 }
 
 .menu-item {

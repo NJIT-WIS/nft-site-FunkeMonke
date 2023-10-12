@@ -4,17 +4,36 @@
   align-items: center;
   justify-content: space-between;
 }
-.menu{
+
+header {
+    background: #030d44;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    /* Other styling for the header */
+  }
+
+
+
+
+.logo {
+    color: #fff;
+    text-decoration: none;
+    font-family: "Outfit sans", sans-serif;
 }
 
+.menu {
+    
+}
 
 .menu-item {
-color: #fff;
-  display: inline;
-  margin-right: 71px;
+  color: #fff;
+  text-decoration: none;
+  margin-right: 20px;
+  
+  font-family: "Outfit sans", sans-serif;
   font-size: 20px;
   font-style: normal;
-  text-decoration: none;
-  line-height: 27.5px; /* 137.5% */
-}
-
+  line-height: 27.5px; /* 137.5%
+} */

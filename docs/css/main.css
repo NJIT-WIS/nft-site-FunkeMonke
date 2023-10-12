@@ -1,8 +1,5 @@
-.top-bar {
-  background: #030d44;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+body {
+    /* background: #030d44; */
 }
 
 header {
@@ -13,18 +10,13 @@ header {
     
     /* Other styling for the header */
   }
-
-
-
-
 .logo {
     color: #fff;
     text-decoration: none;
     font-family: "Outfit sans", sans-serif;
-}
-
-.menu {
-    
+    /* margin-left: -380px; */
+    font-size: 20px;
+    font-style: normal;
 }
 
 .menu-item {
@@ -35,5 +27,12 @@ header {
   font-family: "Outfit sans", sans-serif;
   font-size: 20px;
   font-style: normal;
-  line-height: 27.5px; /* 137.5%
-} */
+  line-height: 27.5px; /* 137.5% */
+} 
+
+.gradient {
+    position: absolute;
+}
+.gradient2{
+    margin-left: px;
+}

@@ -2,18 +2,21 @@ body {
     font-family: "Outfit sans", sans-serif;
     background: #030d44;
     color: #fff;
+    margin: 0 auto; /* Center the content horizontally */
+    max-width: 1065px; /* Limit the width of the content */
 }
+
+/* Your existing CSS for other elements remains the same */
+
 
 header {
     background: #030d44;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-size
     /* background-position: right; */
     /* background-repeat: no-repeat; */
     
-    /* Other styling for the header */
   }
 .logo {
     color: #fff;

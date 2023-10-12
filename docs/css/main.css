@@ -1,5 +1,7 @@
 body {
-    /* background: #030d44; */
+    font-family: "Outfit sans", sans-serif;
+    background: #030d44;
+    color: #fff;
 }
 
 header {
@@ -7,24 +9,25 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-size
+    /* background-position: right; */
+    /* background-repeat: no-repeat; */
     
     /* Other styling for the header */
   }
 .logo {
     color: #fff;
     text-decoration: none;
-    font-family: "Outfit sans", sans-serif;
     /* margin-left: -380px; */
     font-size: 20px;
     font-style: normal;
 }
 
 .menu-item {
-  color: #fff;
+
   text-decoration: none;
   margin-right: 20px;
-  
-  font-family: "Outfit sans", sans-serif;
+  color: #fff;
   font-size: 20px;
   font-style: normal;
   line-height: 27.5px; /* 137.5% */
@@ -35,4 +38,14 @@ header {
 }
 .gradient2{
     margin-left: px;
+}
+
+.hero{
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+    height: calc(100vh-72px);
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
 }

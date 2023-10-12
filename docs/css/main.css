@@ -114,3 +114,39 @@ max-width: 522px
   vertical-align: middle; /* Align the image vertically */
   transform: translateY(-20px); /* Adjust the vertical position as needed */
 }
+
+
+/* hero-section-task */
+
+.hero-section {
+  background-size: contain;
+  background-position: right;
+  background-repeat: no-repeat;
+  height: calc(100vh - 72px);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero-section h2 {
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 100%; /* 80px */
+  text-transform: capitalize;
+  max-width: 522px;
+}
+
+.hero-section .pill-link {
+  display: inline-block;
+  background: url('button-background.png') no-repeat center center; /* Use your button image */
+  background-size: cover;
+  color: #fff;
+  padding: 15px 35px; /* Adjust padding as needed */
+  background-color: #8C8CDA; /* Set the background color to #8C8CDA */
+  border: none; /* Remove the default button border */
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px; /* Adjust font size as needed */
+  margin: 10px; /* Add margin to create spacing */
+  border-radius: 30px; /* Add border-radius for rounded edges */
+}

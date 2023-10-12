@@ -88,3 +88,29 @@ max-width: 522px
   border-radius: 30px; /* Add border-radius for rounded edges */
   border: 1px solid #A7D8D8; 
 }
+
+.featured {
+  display: flex;
+  flex-direction: column;
+}
+
+.text-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px; /* Add margin for spacing between text and images */
+}
+
+.image-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Create 4 equal columns for the images */
+  grid-gap: 10px; /* Adjust the gap between the images as needed */
+  justify-content: center; /* Center the images horizontally */
+}
+
+.image-container img:first-child {
+  max-height: 200px; /* Set a fixed height for the first image */
+  width: auto; /* Allow the width to adjust based on aspect ratio */
+  object-fit: contain; /* Maintain the aspect ratio without distortion */
+  vertical-align: middle; /* Align the image vertically */
+  transform: translateY(-20px); /* Adjust the vertical position as needed */
+}

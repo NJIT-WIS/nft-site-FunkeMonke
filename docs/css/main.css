@@ -49,3 +49,42 @@ header {
     align-items: center;
     justify-content: space-between;
 }
+
+.hero h1{
+/* H1 */
+font-size: 80px;
+font-weight: 700;
+line-height: 100%; /* 80px */
+text-transform: capitalize; 
+max-width: 522px
+}
+
+.pill-link {
+  display: inline-block;
+  background: url('button-background.png') no-repeat center center; /* Use your button image */
+  background-size: cover;
+  color: #fff;
+  padding: 15px 35px; /* Adjust padding as needed */
+  background-color: #8C8CDA; /* Set the background color to #8C8CDA */
+  border: none; /* Remove the default button border */
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px; /* Adjust font size as needed */
+  margin: 10px; /* Add margin to create spacing */
+  border-radius: 30px; /* Add border-radius for rounded edges */
+}
+
+.alt-pill-link {
+  display: inline-block;
+  background: url('button-background.png') no-repeat center center; /* Use your button image */
+  background-size: cover;
+  color: #fff;
+  padding: 15px 35px; /* Adjust padding as needed */
+  background-color: #030D44; /* Set the background color to #8C8CDA */
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px; /* Adjust font size as needed */
+  margin: 10px; /* Add margin to create spacing */
+  border-radius: 30px; /* Add border-radius for rounded edges */
+  border: 1px solid #A7D8D8; 
+}

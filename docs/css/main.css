@@ -384,6 +384,8 @@ max-width: 522px
     text-transform: capitalize;
 }
 
+/* Newsletter ####################################### */
+/* Style for the form container */
 /* Style for the form container */
 .newsletter-form {
     display: flex;
@@ -394,10 +396,34 @@ max-width: 522px
 .newsletter-form input[type="email"],
 .newsletter-form input[type="submit"] {
     margin: 5px; /* Add some spacing */
+    height: 69px; /* Match the height of the email input */
 }
 
 /* Style to make the input and button side by side */
-.newsletter-form input[type="email"] {
-    flex: 1;
-    margin-right: 5px;
+.newsletter-form input[type="email"],
+.newsletter-form input[type="submit"] {
+    margin: 5px; /* Add some spacing */
+    width: 500px; /* Match the width of the email input */
+    border-radius: 50px;
+    background: #344292;
+    border: none; /* Remove border */
+    padding: 10px; /* Add padding for text */
+    color: #FFF; /* Text color */
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 31px; /* 193.75% */
 }
+
+/* Style for the "Submit" button */
+.newsletter-form input[type="submit"] {
+    background: #8C8CDA;
+    color: #FFF;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-left: -100px;
+}
+

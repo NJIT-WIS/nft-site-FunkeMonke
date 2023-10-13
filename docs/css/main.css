@@ -273,7 +273,7 @@ max-width: 522px
 }
 
 .rectangle-behind {
-    background: linear-gradient(98.84deg, #8080D7 66.63%, rgba(137, 208, 209, 0) 153.62%);  /* Rectangle background color */
+    background: linear-gradient(98.84deg, #8080D7 66.63%, rgba(137, 208, 209, 0) 153.62%); /* Rectangle background color */
     padding: 20px; /* Add padding to control the size of the rectangle */
     border-radius: 20px; /* Add border-radius for rounded corners */
     text-align: center;
@@ -283,9 +283,45 @@ max-width: 522px
     left: 188px;
 }
 
-.hero_center.ready h2 {
-    font-size: 24px;
+.rectangle-behind h2 {
+    color: #040404;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    
+    height: 50px; /* Adjust the height of the h2 element */
 }
+
+.rectangle-behind p {
+    color: #F8F1F1;
+    font-family: Roboto;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+
+
+    height: 100px; /* Adjust the height of the p element */
+}
+
+.rectangle-behind .pill-link-black-button {
+    display: inline-block;
+    background-color: #000000;
+    color: #fff;
+    padding: 15px 35px;
+    text-decoration: none;
+    font-size: 16px;
+    height: 40px; /* Adjust the height of the button */
+    border-radius: 30px;
+    margin-top: 10px;
+    text-align: center; /* Center the text horizontally */
+    line-height: 40px; /* Center the text vertically within the button */
+}
+
 
 .stacked-items {
     border: 2px solid #8C8CDA;
@@ -298,19 +334,6 @@ max-width: 522px
     font-size: 18px;
     margin: 0;
 }
-
-.hero_center.ready .pill-link-black-button {
-    display: inline-block;
-    background-image: linear-gradient(98.84deg, #8080D7 66.63%, rgba(137, 208, 209, 0) 153.62%);
-    background: #000000;
-    color: #fff;
-    padding: 15px 35px;
-    text-decoration: none;
-    font-size: 16px;
-    border-radius: 30px;
-    margin-top: 10px;
-}
-
 
 
 

@@ -198,8 +198,54 @@ max-width: 522px
     width: 21px;
     height: 21px;
     flex-shrink: 0;
-    top: 30px;
-    left: 220px;
+    top: 45px;
+    left: 205px;
+    transform: translateX(-50%);
+}
+.testimonial.testimonial-color2 {
+    border: 2px solid #344292;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    background: #B2A2DE;
+    color: #fff;
+    border-radius: 10px;
+    position: relative;
+}
+
+.testimonial.testimonial-color2::before {
+    content: "";
+    background: #AAD9D9; /* Background color for the circular overlay */
+    border-radius: 50%;
+    position: absolute;
+    width: 21px;
+    height: 21px;
+    flex-shrink: 0;
+    top: 45px;
+    left: 210px;
+    transform: translateX(-50%);
+}
+.testimonial.testimonial-color3 {
+    border: 2px solid #344292;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    background: #B2A2DE;
+    color: #fff;
+    border-radius: 10px;
+    position: relative;
+}
+
+.testimonial.testimonial-color3::before {
+    content: "";
+    background: #AAD9D9; /* Background color for the circular overlay */
+    border-radius: 50%;
+    position: absolute;
+    width: 21px;
+    height: 21px;
+    flex-shrink: 0;
+    top: 45px;
+    left: 210px;
     transform: translateX(-50%);
 }
 

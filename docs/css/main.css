@@ -338,32 +338,43 @@ max-width: 522px
 /* Footer ###################################################### */
 
 .column {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    text-align: center; /* Align all text within the column to the center */
+    display: inline-block;
+    vertical-align: top;
+    width: 150px; /* Adjust the width as needed */
+    text-align: left;
+    text-decoration: none;
 }
 
-.column:first-child {
-    text-align: center;
+.column a {
+    display: block; /* Stack the anchor elements vertically */
+    text-decoration: none;
 }
 
-/* Apply custom styling to the specific footer links */
-.column:first-child .footer-link {
-    text-align: left; /* Reset the text alignment for these links to the left */
-    display: block;
-    margin-bottom: 10px;
+/* Optionally, you can add some spacing between stacked elements */
+.column a + a {
+    margin-top: 10px; /* Adjust the margin as needed */
 }
 
-.footer-link {
-    text-align: center;
-    display: block;
-    margin-bottom: 10px;
+/* Style for "KRYPTO", "Market", and "Contact" */
+.column p {
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
 }
 
-
-
-
+/* Style for the other text elements */
+.column a span {
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 31px; /* 193.75% */
+}
 
 
 

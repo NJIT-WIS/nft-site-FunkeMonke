@@ -181,7 +181,7 @@ max-width: 522px
 /* I know this is ugly, but this was the only way it worked. */
 .testimonial.testimonial-color1 {
     border: 2px solid #344292;
-    padding: 30px;
+    padding: 30px 30px -50px; /* Adjust the top padding (10px in this example) */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin: 10px;
     background: #B2A2DE;
@@ -189,6 +189,7 @@ max-width: 522px
     border-radius: 10px;
     position: relative;
 }
+
 
 .testimonial.testimonial-color1::before {
     content: "";
@@ -198,20 +199,21 @@ max-width: 522px
     width: 21px;
     height: 21px;
     flex-shrink: 0;
-    top: 45px;
+    top: 10px;
     left: 205px;
     transform: translateX(-50%);
 }
 .testimonial.testimonial-color2 {
     border: 2px solid #344292;
-    padding: 30px;
+    padding: 30px 30px -50px; /* Adjust the top padding (10px in this example) */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin: 10px;
-    background: #B2A2DE;
+    background: #DFC485;
     color: #fff;
     border-radius: 10px;
     position: relative;
 }
+
 
 .testimonial.testimonial-color2::before {
     content: "";
@@ -221,13 +223,13 @@ max-width: 522px
     width: 21px;
     height: 21px;
     flex-shrink: 0;
-    top: 45px;
-    left: 210px;
+    top: 10px;
+    left: 205px;
     transform: translateX(-50%);
 }
 .testimonial.testimonial-color3 {
     border: 2px solid #344292;
-    padding: 30px;
+    padding: 30px 30px -50px; /* Adjust the top padding (10px in this example) */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin: 10px;
     background: #B2A2DE;
@@ -235,6 +237,7 @@ max-width: 522px
     border-radius: 10px;
     position: relative;
 }
+
 
 .testimonial.testimonial-color3::before {
     content: "";
@@ -244,37 +247,12 @@ max-width: 522px
     width: 21px;
     height: 21px;
     flex-shrink: 0;
-    top: 45px;
-    left: 210px;
+    top: 10px;
+    left: 205px;
     transform: translateX(-50%);
 }
 
 
-
-
-
-
-
-/*
-.testimonial.testimonial-color2 {
-    border: 2px solid #344292;
-    padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin: 10px;
-    background: #344292;
-    color: #fff;
-    border-radius: 10px; /* Add border-radius to round the testimonial box */
-/*}
-.testimonial.testimonial-color3 {
-    border: 2px solid #344292;
-    padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin: 10px;
-    background: #344292;
-    color: #fff;
-    border-radius: 10px; /* Add border-radius to round the testimonial box /
-}
-*/
 
 
 

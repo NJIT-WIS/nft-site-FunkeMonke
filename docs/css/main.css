@@ -252,15 +252,42 @@ max-width: 522px
     transform: translateX(-50%);
 }
 
-
-
-
-
-
 .testimonial-cards {
   display: flex;
   justify-content: space-between;
 }
 
 
-/* Rest of your existing styles for testimonial cards, images, and text */
+/* ARE YOU READY? ###################################### */
+
+.hero_center.ready {
+    background-color: #030d44;
+    color: #fff;
+    border-radius: 20px; /* Add border-radius for rounded corners */
+    padding: 20px; /* Add padding to control the spacing inside the section */
+}
+
+/* Additional CSS for the section's child elements */
+.hero_center.ready h2 {
+    font-size: 24px;
+    /* Add other styles for the heading as needed */
+}
+
+.hero_center.ready p {
+    font-size: 18px;
+    /* Add other styles for the paragraph as needed */
+}
+
+.hero_center.ready .pill-link-black-button {
+    display: inline-block;
+    background-color: #8C8CDA;
+    color: #fff;
+    padding: 15px 35px;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 10px; /* Add border-radius for the button */
+    /* Add other styles for the button as needed */
+}
+
+
+

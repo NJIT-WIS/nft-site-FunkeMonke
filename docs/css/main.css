@@ -335,6 +335,32 @@ max-width: 522px
     margin: 0;
 }
 
+/* Footer ###################################################### */
+
+.column {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center; /* Align all text within the column to the center */
+}
+
+.column:first-child {
+    text-align: center;
+}
+
+/* Apply custom styling to the specific footer links */
+.column:first-child .footer-link {
+    text-align: left; /* Reset the text alignment for these links to the left */
+    display: block;
+    margin-bottom: 10px;
+}
+
+.footer-link {
+    text-align: center;
+    display: block;
+    margin-bottom: 10px;
+}
+
 
 
 

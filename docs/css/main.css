@@ -348,11 +348,7 @@ max-width: 522px
 .column a {
     display: block; /* Stack the anchor elements vertically */
     text-decoration: none;
-}
-
-/* Optionally, you can add some spacing between stacked elements */
-.column a + a {
-    margin-top: 10px; /* Adjust the margin as needed */
+    margin-bottom: 10px; /* Add margin to create space between links */
 }
 
 /* Style for "KRYPTO", "Market", and "Contact" */
@@ -375,6 +371,21 @@ max-width: 522px
     font-weight: 400;
     line-height: 31px; /* 193.75% */
 }
+
+/* Style for the "Join Our Newsletter" heading */
+.column h3 {
+    margin: 0; /* Remove any default margin */
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+
+/* Join Our Newsletter ########################################*/
 
 
 

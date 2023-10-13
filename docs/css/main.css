@@ -384,7 +384,20 @@ max-width: 522px
     text-transform: capitalize;
 }
 
+/* Style for the form container */
+.newsletter-form {
+    display: flex;
+    align-items: center;
+}
 
+/* Style for the input and button */
+.newsletter-form input[type="email"],
+.newsletter-form input[type="submit"] {
+    margin: 5px; /* Add some spacing */
+}
 
-
-
+/* Style to make the input and button side by side */
+.newsletter-form input[type="email"] {
+    flex: 1;
+    margin-right: 5px;
+}

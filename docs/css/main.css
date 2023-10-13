@@ -273,10 +273,14 @@ max-width: 522px
 }
 
 .rectangle-behind {
-    background: #8C8CDA; /* Rectangle background color */
+    background: linear-gradient(98.84deg, #8080D7 66.63%, rgba(137, 208, 209, 0) 153.62%);  /* Rectangle background color */
     padding: 20px; /* Add padding to control the size of the rectangle */
     border-radius: 20px; /* Add border-radius for rounded corners */
     text-align: center;
+    width: 1066px;
+    height: 420px;
+    top: 2937px;
+    left: 188px;
 }
 
 .hero_center.ready h2 {
@@ -298,12 +302,12 @@ max-width: 522px
 .hero_center.ready .pill-link-black-button {
     display: inline-block;
     background-image: linear-gradient(98.84deg, #8080D7 66.63%, rgba(137, 208, 209, 0) 153.62%);
-    background-color: #8C8CDA;
+    background: #000000;
     color: #fff;
     padding: 15px 35px;
     text-decoration: none;
     font-size: 16px;
-    border-radius: 10px;
+    border-radius: 30px;
     margin-top: 10px;
 }
 

@@ -302,7 +302,7 @@ max-width: 522px
 }
 
 .rectangle-behind {
-    background: linear-gradient(98.84deg, #8080D7 66.63%, rgba(137, 208, 209, 0) 153.62%); /* Rectangle background color */
+    background: linear-gradient(277deg, #AAD9D9 0%, rgba(217, 217, 217, 0.00) 100%); /* Rectangle background color */
     padding: 20px; /* Add padding to control the size of the rectangle */
     border-radius: 20px; /* Add border-radius for rounded corners */
     text-align: center;
